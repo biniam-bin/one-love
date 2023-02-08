@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavContainer } from './style'
-import Link from 'next/Link';
+import Link from 'next/link';
 
 function Nav() {
     return (
