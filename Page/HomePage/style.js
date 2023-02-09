@@ -2,19 +2,20 @@ import styled from "styled-components";
 
 
 export const HomeContainer = styled.div`
-
-
-`
+    
+    
+    `
 
 export const HeroContainer = styled.div`
     position: relative;
+    width: 100% !important;
     display: flex;
     align-items: center;
     text-align: start;
     
     img{
-        width: 100%;
-        height: 100%;
+        width: 100% ;
+        /* object-fit: fill; */
         filter: blur(3px);
     }
     span{
@@ -41,19 +42,19 @@ export const HeroContainer = styled.div`
             transition: all 0.5s ease-out;
             :hover{
                 background-color: #ff422a;
-
+                
             }
         }
     }
-
-
-`
+    
+    
+    `
 
 export const AttractionContainer = styled.div`
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
     h1{
         max-width: 800px;
         position: relative;

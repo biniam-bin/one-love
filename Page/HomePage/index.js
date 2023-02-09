@@ -74,7 +74,7 @@ const Attractions = () => {
 function HomePage() {
   return (
     <HomeContainer>
-      <Hero />
+      <Hero />  
       <Attractions />
     </HomeContainer>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavContainer } from './style'
 import Link from 'next/link';
+import {AiOutlineMenu} from "react-icons/ai"
 
 function Nav() {
     return (
@@ -23,6 +24,7 @@ function Nav() {
                         <Link href="/">Contact</Link>
                     </li>
                 </ul>
+            <span><AiOutlineMenu size={23} /></span>
         </NavContainer>
     )
 }
